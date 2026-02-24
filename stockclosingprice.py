@@ -12,6 +12,6 @@ for symbol in stock_symbols:
 
     if not data.empty:
         close_price = data['Close'].iloc[-1]
-        print(f"Closing price of {symbol} on {today} is ₹{close_price}")
+        print(f" {symbol} - ₹{close_price}")
     else:
         print(f"No data found for {symbol}")
